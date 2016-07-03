@@ -1,0 +1,20 @@
+{
+	"manifest_version":2,
+	"name":"clip2v",
+	"version":"1.0",
+	"icons":{
+		"48":"icons/up-48.png"
+	},
+	"applications":{
+		"gecko":{
+			"id":"clip2v@null.org",
+			"strict_min_version":"45.0"
+		}
+	},
+	"browser_action":{
+		"default_icon":"icons/up-32.png",
+		"default_title":"clip2v",
+		"default_popup":"popup/clip.html"
+	},
+	"permissions":[ "activeTab", "storage" ]
+}

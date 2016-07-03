@@ -1,0 +1,20 @@
+{
+	"manifest_version":2,
+	"name":"fileapi",
+	"version":"1.0",
+	"icons":{
+		"48":"icons/up-48.png"
+	},
+	"applications":{
+		"gecko":{
+			"id":"fileapi@null.org",
+			"strict_min_version":"45.0"
+		}
+	},
+	"browser_action":{
+		"default_icon":"icons/up-32.png",
+		"default_title":"upit",
+		"default_popup":"popup/select_file.html"
+	},
+	"permissions":[ "activeTab", "storage" ]
+}
